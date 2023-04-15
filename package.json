@@ -1,0 +1,12 @@
+{
+  "name": "react-webview-extension-monorepo",
+  "private": true,
+  "displayName": "react-webview-extension-monorepo",
+  "description": "",
+  "version": "0.0.1",
+  "scripts": {},
+  "devDependencies": {
+    "react-webview-extension": "workspace:*",
+    "react-webview-extension-web": "workspace:*"
+  }
+}
