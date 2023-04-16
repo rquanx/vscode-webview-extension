@@ -4,7 +4,9 @@
   "displayName": "react-webview-extension-monorepo",
   "description": "",
   "version": "0.0.1",
-  "scripts": {},
+  "scripts": {
+    "vscode": "npm run -C packages/vscode watch"
+  },
   "devDependencies": {
     "react-webview-extension": "workspace:*",
     "react-webview-extension-web": "workspace:*"
