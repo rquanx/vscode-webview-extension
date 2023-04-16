@@ -14,10 +14,18 @@
   "contributes": {
     "commands": [
       {
-        "command": "react-webview-extension.helloWorld",
-        "title": "Hello World"
+        "command": "react-webview-extension.webview",
+        "title": "Hello webview"
       }
-    ]
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "react-webview-extension.webview",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "pnpm run package",
