@@ -5,7 +5,8 @@
   "description": "",
   "version": "0.0.1",
   "scripts": {
-    "vscode": "npm run -C packages/vscode watch"
+    "vscode": "npm run -C packages/vscode watch",
+    "dev-vscode": "code --extensionDevelopmentPath=${workspaceFolder}/packages/vscode && npm run -C packages/vscode watch"
   },
   "devDependencies": {
     "react-webview-extension": "workspace:*",
