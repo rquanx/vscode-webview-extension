@@ -7,7 +7,7 @@
 			"label": "start",
 			"dependsOn": [
 				"vscode",
-				"echo"
+				// "echo"
 			]
 		},
 		{
