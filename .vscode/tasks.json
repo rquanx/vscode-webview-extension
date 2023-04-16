@@ -4,8 +4,27 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+			"label": "vscode",
 			"type": "npm",
 			"script": "vscode",
+			"problemMatcher": "$ts-webpack-watch",
+			"isBackground": true,
+			"presentation": {
+				"reveal": "never",
+				"group": "watchers"
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"dependsOn": [
+				"echo"
+			]
+		},
+		{
+			"label": "echo",
+			"type": "npm",
+			"script": "echo",
 			"problemMatcher": "$ts-webpack-watch",
 			"isBackground": true,
 			"presentation": {
